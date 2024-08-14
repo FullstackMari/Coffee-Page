@@ -11,7 +11,12 @@ body {
     background-color: #fe0000;
     width: 100vw;
     color: white;
+    height: 45px;
     position: sticky;
+    margin-top: 133px;
+    /* padding: 1px 0px 10px; */
+    /* margin: 70px 0px 70px 0px; */
+    
 
   }
   
@@ -174,10 +179,9 @@ body {
   .buttoncontainer {
     background-color: black;
     border: none;
+    /* margin-top: -20px; */
     padding: 10px;
-    margin-top: 10px;
-    align-items: center;
     text-align: center;
-    width: auto;
   }
   
+  .na
