@@ -9,12 +9,10 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #fe0000;
-    width: 300%;
+    width: 100vw;
     color: white;
-    height: 50px;
     position: sticky;
-    bottom: 0;
-    margin: 20px 12px 20px 10px;
+
   }
   
   .topnav a {
@@ -176,5 +174,10 @@ body {
   .buttoncontainer {
     background-color: black;
     border: none;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    width: auto;
   }
   
