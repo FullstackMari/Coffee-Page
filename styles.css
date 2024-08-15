@@ -201,7 +201,7 @@ button {
 iframe {
   height: 100%;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 
@@ -229,4 +229,10 @@ iframe {
 
 .favoritestext {
   
+}
+
+
+.espressotext {
+  height: 80vh; /* maximum height of the box, feel free to change this! */
+  overflow-y: scroll;
 }
