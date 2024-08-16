@@ -14,16 +14,21 @@ body {
   height: 35px;
   padding: 0 10px; /* Add padding to give some space from the edges */
   box-sizing: border-box;
+  text-align: center;
 }
 
 .topnav p {
   margin: 0; /* Remove margin to prevent text from pushing down */
+  text-align: center;
+
 }
 
 .topnav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
+
 }
 
 .topnav button {
@@ -36,7 +41,7 @@ body {
 
 .topnav button:hover,
 .topnav a:hover {
-  color: #f0f0f0; /* Slight color change on hover */
+  color: #000000;
 }
 
 .container {
@@ -104,7 +109,7 @@ body {
   font-size: 12px;
   align-items: center;
   */
-  border: 1px solid white
+  border: 1px solid white;
 }
 
 .links a:hover {
@@ -155,12 +160,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  background-color: rgba(66, 66, 66, 0.39);
+  background-color: rgba(32, 32, 32, 0.218);
   color: black;
   height: 115%;
   margin-right: 10px;
   /* opacity: 70%; */
   /* font-weight: bold; */
+  border-radius: 10px;
 }
 
 
@@ -171,9 +177,11 @@ body {
 
 .box {
   width: calc(100% / 2);
-  border: 1px solid white;
+  /* border: 1px solid white; */
   box-sizing: border-box;
   padding: 10px;
+  /* padding: 20px; */
+  border-radius: 10px;
 }
 
 body.dark-mode {
